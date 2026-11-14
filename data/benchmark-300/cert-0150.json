@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://schema.org"
+  ],
+  "id": "urn:uuid:certchain-benchmark-0150",
+  "type": [
+    "VerifiableCredential",
+    "UniversityDegreeCredential"
+  ],
+  "issuer": "solana:pubkey:BcKXZDdJ2M6oWy73Kve4VCGrhPsFqBN1rLZagVmkPKb6",
+  "issuanceDate": "2026-06-15T08:00:00Z",
+  "credentialSubject": {
+    "id": "urn:citizen:BENCH-0150",
+    "fullName": "Phan Ngoc",
+    "dateOfBirth": "2000-05-15",
+    "placeOfBirth": "Test Province",
+    "gender": "Nu",
+    "ethnicity": "Kinh",
+    "nationality": "Viet Nam",
+    "degreeName": "Bang Cu nhan",
+    "major": "Cong nghe Thong tin",
+    "classification": "Kha",
+    "diplomaNumber": "BENCH-2026-0150",
+    "registerNumber": "BENCH-0150/2026",
+    "decisionNumber": "BENCH-0150/QD",
+    "signDate": "2026-06-15",
+    "signerTitle": "Hieu truong",
+    "signerName": "Test Signer"
+  },
+  "evidence": {
+    "pdfFile": "benchmark-0150.pdf",
+    "ipfsCid": "benchmark-cid-0150"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-06-15T08:05:00Z",
+    "verificationMethod": "solana:pubkey:BcKXZDdJ2M6oWy73Kve4VCGrhPsFqBN1rLZagVmkPKb6#key-1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "TEST_SIGNATURE_BENCHMARK_0150"
+  }
+}

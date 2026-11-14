@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-20T01:11:55.845Z",
+  "programId": "bT4dCEPvh6HYQ7tZJT3KgVHfcx4Uc63oBv2mof1K3mm",
+  "pdaSeed": "certificate",
+  "records": [
+    {
+      "id": "cert-001-active",
+      "file": "data/experimental/cert-001-active.json",
+      "certHash": "5a9813512a9e18b143178ea7f220bed41a95ae330b5ec88cb1846aa6fbdd434a",
+      "statusBeforeChain": "ACTIVE",
+      "instruction": "issue_certificate"
+    },
+    {
+      "id": "cert-002-revoked",
+      "file": "data/experimental/cert-002-revoked.json",
+      "certHash": "4350e5b9da72e7d9683d138cb488845c638ef970cca9584168b798e44ded072c",
+      "statusBeforeChain": "ACTIVE",
+      "instruction": "issue_certificate"
+    },
+    {
+      "id": "cert-003-original",
+      "file": "data/experimental/cert-003-original.json",
+      "certHash": "700e1821e298a23db7f56c34fabf0bd8fea3ec75e75322951fbc3e7bb3ad24ea",
+      "statusBeforeChain": "ACTIVE",
+      "instruction": "issue_certificate"
+    },
+    {
+      "id": "cert-003-tampered",
+      "file": "data/experimental/tampered/cert-003-tampered.json",
+      "certHash": "ba76b4e9d4c2356a8657d7f28f1fc5f6353cd7860d23676edbd3ccb4e972d8d4",
+      "statusBeforeChain": "TAMPERED",
+      "instruction": "must_not_issue"
+    }
+  ],
+  "revocationScenario": {
+    "id": "cert-002",
+    "issueFirst": true,
+    "then": "revoke_certificate",
+    "expectedStatus": "REVOKED"
+  }
+}

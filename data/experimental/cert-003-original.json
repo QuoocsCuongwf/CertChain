@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://schema.org"
+  ],
+  "id": "urn:uuid:certchain-cert-003",
+  "type": [
+    "VerifiableCredential",
+    "UniversityDegreeCredential"
+  ],
+  "issuer": "solana:pubkey:bT4dCEPvh6HYQ7tZJT3KgVHfcx4Uc63oBv2mof1K3mm",
+  "issuanceDate": "2026-07-02T08:00:00Z",
+  "credentialSubject": {
+    "id": "urn:citizen:TEST-003",
+    "fullName": "Le Hoang Nam",
+    "dateOfBirth": "2002-03-08",
+    "placeOfBirth": "Can Tho",
+    "gender": "Nam",
+    "ethnicity": "Kinh",
+    "nationality": "Viet Nam",
+    "degreeName": "Bang Cu nhan",
+    "major": "Ky thuat Phan mem",
+    "classification": "Kha",
+    "diplomaNumber": "SGU-EXP-2026-003",
+    "registerNumber": "EXP-003/2026/SGU",
+    "decisionNumber": "EXP-003/QD-ĐHSG",
+    "signDate": "2026-07-02",
+    "signerTitle": "Hieu truong",
+    "signerName": "Tran Van B"
+  },
+  "evidence": {
+    "pdfFile": "cert-003-original.pdf",
+    "ipfsCid": "bafybeiexperimentalcert003"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-07-02T08:05:00Z",
+    "verificationMethod": "solana:pubkey:bT4dCEPvh6HYQ7tZJT3KgVHfcx4Uc63oBv2mof1K3mm#key-1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "TEST_SIGNATURE_CERT_003"
+  }
+}

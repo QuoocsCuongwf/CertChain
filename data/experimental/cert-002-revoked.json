@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://schema.org"
+  ],
+  "id": "urn:uuid:certchain-cert-002",
+  "type": [
+    "VerifiableCredential",
+    "UniversityDegreeCredential"
+  ],
+  "issuer": "solana:pubkey:bT4dCEPvh6HYQ7tZJT3KgVHfcx4Uc63oBv2mof1K3mm",
+  "issuanceDate": "2026-07-01T08:00:00Z",
+  "credentialSubject": {
+    "id": "urn:citizen:TEST-002",
+    "fullName": "Tran Thi Lan",
+    "dateOfBirth": "2001-11-20",
+    "placeOfBirth": "Da Nang",
+    "gender": "Nu",
+    "ethnicity": "Kinh",
+    "nationality": "Viet Nam",
+    "degreeName": "Bang Cu nhan",
+    "major": "He thong Thong tin",
+    "classification": "Kha",
+    "diplomaNumber": "SGU-EXP-2026-002",
+    "registerNumber": "EXP-002/2026/SGU",
+    "decisionNumber": "EXP-002/QD-ĐHSG",
+    "signDate": "2026-07-01",
+    "signerTitle": "Hieu truong",
+    "signerName": "Tran Van B"
+  },
+  "evidence": {
+    "pdfFile": "cert-002-revoked.pdf",
+    "ipfsCid": "bafybeiexperimentalcert002"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-07-01T08:05:00Z",
+    "verificationMethod": "solana:pubkey:bT4dCEPvh6HYQ7tZJT3KgVHfcx4Uc63oBv2mof1K3mm#key-1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "TEST_SIGNATURE_CERT_002"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://schema.org"
+  ],
+  "id": "urn:uuid:certchain-benchmark-0262",
+  "type": [
+    "VerifiableCredential",
+    "UniversityDegreeCredential"
+  ],
+  "issuer": "solana:pubkey:BcKXZDdJ2M6oWy73Kve4VCGrhPsFqBN1rLZagVmkPKb6",
+  "issuanceDate": "2026-10-15T08:00:00Z",
+  "credentialSubject": {
+    "id": "urn:citizen:BENCH-0262",
+    "fullName": "Tran Binh",
+    "dateOfBirth": "2002-05-15",
+    "placeOfBirth": "Test Province",
+    "gender": "Nu",
+    "ethnicity": "Kinh",
+    "nationality": "Viet Nam",
+    "degreeName": "Bang Cu nhan",
+    "major": "Cong nghe Thong tin",
+    "classification": "Gioi",
+    "diplomaNumber": "BENCH-2026-0262",
+    "registerNumber": "BENCH-0262/2026",
+    "decisionNumber": "BENCH-0262/QD",
+    "signDate": "2026-10-15",
+    "signerTitle": "Hieu truong",
+    "signerName": "Test Signer"
+  },
+  "evidence": {
+    "pdfFile": "benchmark-0262.pdf",
+    "ipfsCid": "benchmark-cid-0262"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-10-15T08:05:00Z",
+    "verificationMethod": "solana:pubkey:BcKXZDdJ2M6oWy73Kve4VCGrhPsFqBN1rLZagVmkPKb6#key-1",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "TEST_SIGNATURE_BENCHMARK_0262"
+  }
+}

@@ -1,0 +1,26 @@
+# Solana / Anchor
+target/
+test-ledger/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Keys & Secrets
+HOME/
+**/*.keypair.json
+*.key
+*.pem
+id.json
+
+# Temporary & Editor files
+.~lock.*#
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

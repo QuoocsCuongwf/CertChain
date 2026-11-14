@@ -1,0 +1,19 @@
+{
+  "name": "certificate-registry",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix app run dev",
+    "build": "npm --prefix app run build",
+    "lint": "npm --prefix app run lint",
+    "test": "anchor test",
+    "data:hash": "node scripts/hash-experimental-data.mjs",
+    "data:benchmark": "node scripts/generate-benchmark-data.mjs",
+    "benchmark:issuance": "node scripts/benchmark-issuance.mjs",
+    "benchmark:cost": "node scripts/benchmark-cost.mjs"
+  },
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.32.1",
+    "typescript": "^5.9.3",
+    "ts-mocha": "^11.1.0"
+  }
+}
